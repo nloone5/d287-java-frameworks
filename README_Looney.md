@@ -10,7 +10,14 @@ Changed h1 field to "Looney's Cars" at line 19
 Changed h2 field to "Cars" at line 53
 
 ### Requirement D
-test
+Added file about_page.html where I used the mainscreen.html
+as a slight template, taking out everything past the initial
+h1 property, and replacing it with multiple h2 and p
+components from lines 21 through 30, changing the title
+and h1 on lines 14 and 19, respectively. Added AboutController
+file, adding a Controller to the About Us page. Added a button to
+About Us page at line 89 in mainscreen.html.
+Added button to Home in about_us.html at line 31.
 
 ### Requirement E
 test
