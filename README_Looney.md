@@ -32,7 +32,18 @@ and adding failure.html as well as success.html to handle the product purchase
 success and failure messages.
 
 ### Requirement G
-test
+Fulfilled requirement G by editing Part.java to add the ValidInventory validator to line 24,
+add the minInv and maxInv @Min's at lines 34-37, and the getter and setters for them at lines 100 through 115.
+I edited mainscreen.html to add Min Inv and Max Inv columns to the parts table at lines 38-39 and 48-49.
+Then I edited BootStrapData.java to set the minInv and maxInv for each part at lines 65-66, 79-80,
+93-94, 107-108, and 121-122. I updated InhousePartForm.html to include the Min Inventory and Max Inventory
+fields at the bottom of the form, display any errors, as well as add labels to the left of each input for convenience
+at lines 16, 18, 21, and from 26 to 39. I did the same to OutsourcedPartForm.html at lines 17, 19,
+22 and from 27 to 40. I created InventoryValidator.java and in the isValid method, used an if-else if
+statement to check if the updated inventory is less than the minimum or greater than the maximum and return false
+if either are true from lines 30-39. I created the ValidInventory.java to connect with the InventoryValidator.java
+to throw the "Inventory Error!" message when needed. Lastly I updated line 6 of application.properties
+to LooneyDatabaseV_4.
 
 ### Requirement H
 test

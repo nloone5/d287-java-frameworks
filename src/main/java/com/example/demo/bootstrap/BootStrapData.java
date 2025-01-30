@@ -62,6 +62,8 @@ public class BootStrapData implements CommandLineRunner {
             frame.setCompanyName("Looney's Cars");
             frame.setName("Frame");
             frame.setInv(10);
+            frame.setMinInv(1);
+            frame.setMaxInv(50);
             frame.setPrice(1000.0);
             frame.setId(100L);
             outsourcedPartRepository.save(frame);
@@ -74,6 +76,8 @@ public class BootStrapData implements CommandLineRunner {
             engine.setCompanyName("Looney's Cars");
             engine.setName("Engine");
             engine.setInv(7);
+            engine.setMinInv(1);
+            engine.setMaxInv(50);
             engine.setPrice(3000.0);
             engine.setId(200L);
             outsourcedPartRepository.save(engine);
@@ -86,6 +90,8 @@ public class BootStrapData implements CommandLineRunner {
             door.setCompanyName("Looney's Cars");
             door.setName("Door");
             door.setInv(34);
+            door.setMinInv(1);
+            door.setMaxInv(50);
             door.setPrice(500.0);
             door.setId(300L);
             outsourcedPartRepository.save(door);
@@ -98,6 +104,8 @@ public class BootStrapData implements CommandLineRunner {
             wheel.setCompanyName("Looney's Cars");
             wheel.setName("Wheel");
             wheel.setInv(29);
+            wheel.setMinInv(1);
+            wheel.setMaxInv(50);
             wheel.setPrice(300.0);
             wheel.setId(400L);
             outsourcedPartRepository.save(wheel);
@@ -110,6 +118,8 @@ public class BootStrapData implements CommandLineRunner {
             seat.setCompanyName("Looney's Cars");
             seat.setName("Seat");
             seat.setInv(46);
+            seat.setMinInv(1);
+            seat.setMaxInv(50);
             seat.setPrice(400.0);
             seat.setId(250L);
             outsourcedPartRepository.save(seat);
