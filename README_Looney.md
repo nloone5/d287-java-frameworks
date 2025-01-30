@@ -20,10 +20,16 @@ About Us page at line 89 in mainscreen.html.
 Added button to Home in about_us.html at line 31.
 
 ### Requirement E
-test
+Fulfilled requirement E by adding 5 products and 5 parts to BootStrapData.java.
+5 parts were added from lines 58 through 123, and new products were added from lines 133 through 145.
+An if statement surrounds the parts additions as well as the products to ensure they are only added
+if the current amount in the repositories are 0. Also fixed minor errors with the links to Home and About Us.
 
 ### Requirement F
-test
+Fulfilled requirement F by adding a Buy Now button in mainscreen.html at line 85,
+adding the buyProduct component in AddProductController.java on lines 180-193,
+and adding failure.html as well as success.html to handle the product purchase
+success and failure messages.
 
 ### Requirement G
 test
