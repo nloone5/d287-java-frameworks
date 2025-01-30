@@ -43,7 +43,7 @@ at lines 16, 18, 21, and from 26 to 39. I did the same to OutsourcedPartForm.htm
 statement to check if the updated inventory is less than the minimum or greater than the maximum and return false
 if either are true from lines 30-39. I created the ValidInventory.java to connect with the InventoryValidator.java
 to throw the "Inventory Error!" message when needed. Lastly I updated line 6 of application.properties
-to LooneyDatabaseV_4. 
+to LooneyDatabaseV_4.
 
 ### Requirement H
 test
