@@ -52,7 +52,8 @@ to be decreased. The validator then triggers an error message if the inventory w
 otherwise it decreases the part inventories in tandem with the product addition(s).
 
 ### Requirement I
-test
+Fulfilled requirement I by editing PartTest.java to add testMinInv and testMaxInv on lines 159 to 182.
+Each unit test tested both Inhouse Parts and Outsourced Parts to ensure both work as intended.
 
 ### Requirement J
 test
