@@ -56,4 +56,4 @@ Fulfilled requirement I by editing PartTest.java to add testMinInv and testMaxIn
 Each unit test tested both Inhouse Parts and Outsourced Parts to ensure both work as intended.
 
 ### Requirement J
-test
+Fulfilled requirement J by deleting DeletePartValidator.java as it has no usages throughout the application.
