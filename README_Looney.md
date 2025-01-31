@@ -46,7 +46,10 @@ to throw the "Inventory Error!" message when needed. Lastly I updated line 6 of 
 to LooneyDatabaseV_4.
 
 ### Requirement H
-test
+Fulfilled requirement H by editing EnufPartsValidator.java to include an if statement on
+line 37 checking if the parts inventory would be less than the minimum inventory if it were
+to be decreased. The validator then triggers an error message if the inventory would be too low,
+otherwise it decreases the part inventories in tandem with the product addition(s).
 
 ### Requirement I
 test
